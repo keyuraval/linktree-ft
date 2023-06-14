@@ -12,7 +12,7 @@ const Apply = () => {
 
     const handleLogin = (e) => {
         e.preventDefault();
-        fetch('http://localhost:5000/api/login', {
+        fetch('https://linktree-bt-keyuraval.vercel.app/api/login', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

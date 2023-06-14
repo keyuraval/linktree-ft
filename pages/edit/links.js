@@ -32,7 +32,7 @@ const links = () => {
             title: titlesArray[index]
         }))
 
-        fetch(`http://localhost:5000/save/links`, {
+        fetch(`https://linktree-bt-keyuraval.vercel.app/save/links`, {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'
@@ -49,7 +49,7 @@ const links = () => {
 
     useEffect(() => {
         if (!localStorage.getItem('LinkTreeToken')) return router.push('/login');
-        fetch(`http://localhost:5000/load/links`, {
+        fetch(`https://linktree-bt-keyuraval.vercel.app/load/links`, {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'
