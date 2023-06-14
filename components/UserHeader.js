@@ -16,7 +16,7 @@ const UserHeader = () => {
 
     useEffect(() => {
         if (!localStorage.getItem('LinkTreeToken')) return window.location.href = "/login";
-        fetch('http://localhost:5000/data/dashboard', {
+        fetch('https://linktree-bt-keyuraval.vercel.app/data/dashboard', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'
