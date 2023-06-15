@@ -24,7 +24,7 @@ const Apply = () => {
     e.preventDefault();
     if (!category) return toast.error("Add a category.")
     //backend part
-    fetch('https://linktree-bt-keyuraval.vercel.app/api/register', {
+    fetch('https://linktree-ousgvczch-keyuraval.vercel.app/api/register', {
       method: 'POST',
       headers: {
         'content-type': 'application/json'
