@@ -27,8 +27,7 @@ const Apply = () => {
     fetch('https://linktree-bt-keyuraval.vercel.app/api/register', {
       method: 'POST',
       headers: {
-        'content-type': 'application/json',
-        'Access-Control-Allow-Origin': '*'
+        'content-type': 'application/json'
       },
       body: JSON.stringify({
         handle,
