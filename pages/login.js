@@ -12,7 +12,7 @@ const Apply = () => {
 
     const handleLogin = (e) => {
         e.preventDefault();
-        fetch('https://cors-anywhere.herokuapp.com/https://linktree-ousgvczch-keyuraval.vercel.app/api/login', {
+        fetch('https://cors-anywhere.herokuapp.chttps://linktree-ousgvczch-keyuraval.vercel.app/api/login', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
