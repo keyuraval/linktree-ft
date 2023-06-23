@@ -1,7 +1,5 @@
 Bakend :- https://github.com/keyuraval/linktree-bt
 
-DEMO 👉 https://example-frontend-next-js.sanity-io.now.sh
-
 ## Prerequisites
 
 You will need [Node.js](https://nodejs.org) version 8.0 or greater installed on your system.
