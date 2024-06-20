@@ -12,7 +12,7 @@ Get the code by either cloning this repository using git
 git clone https://github.com/keyuraval/linktree-ft.git
 ```
 
-Once downloaded, open the terminal in the project directory, and install dependencies with:
+Once downloaded, open the terminal in the project directory, and install dependencies with
 
 ```
 npm install
