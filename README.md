@@ -23,7 +23,7 @@ npm install
 cors add http://localhost:3000
 ```
 
-Then start the example app with:
+Then start the example app with
 
 ```
 npm run dev
